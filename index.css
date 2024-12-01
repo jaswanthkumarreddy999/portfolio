@@ -324,15 +324,13 @@ nav .tj{
     margin-top: -40px;
     display: block;
 }
-/*------------css for small screen-----------------*/
-
-/*------------css for small screen-----------------*/
-@media only screen and (max-width: 600px) {
+/*------------css for tabs ------------------------*/
+@media only screen and (max-width: 1200px) {
     #header{
         background-image: url(images/mb.jpg);
     }
     .logo {
-        width: 200px;
+        width: 400px;
     }
     .header-text {
         margin-top: 75%;
@@ -390,5 +388,11 @@ nav .tj{
     }
     #portfolio .layer{
         font-size: 9px;
+    }
+}
+/*------------css for small screen-----------------*/
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 200px;
     }
 }
