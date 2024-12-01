@@ -327,10 +327,10 @@ nav .tj{
 /*------------css for tabs ------------------------*/
 @media only screen and (max-width: 1440px) {
     #header{
-        background-image: url(images/me1.jpg);
+        background-image: url(images/mb.jpg);
     }
     .logo {
-        width: 8000px;
+        width: 4000px;
     }
     .header-text {
         margin-top: 75%;
